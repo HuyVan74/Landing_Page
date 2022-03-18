@@ -452,15 +452,15 @@ li:nth-child(7) a {
 }
 
 .bottom-destination:nth-child(1) {
-    background-image: url("./Img/Rectangle 14.png");
+    background-image: url("../Img/Rectangle 14.png");
 }
 
 .bottom-destination:nth-child(2) {
-    background-image: url("./Img/Rectangle 15.jpg");
+    background-image: url("../Img/Rectangle 15.jpg");
 }
 
 .bottom-destination:nth-child(3) {
-    background-image: url("./Img/Rectangle 16.png");
+    background-image: url("../Img/Rectangle 16.png");
 }
 
 .destination__card {
