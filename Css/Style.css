@@ -791,6 +791,10 @@ body {
     align-self: center;
 }
 
+.outbound__social div {
+    text-align: center;
+}
+
 .outbound__social p {
     font-size: 20px;
     font-weight: 500;
