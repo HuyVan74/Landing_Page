@@ -1,0 +1,175 @@
+/* Reponsive */
+
+
+/* 0-175.9 */
+
+@media (max-width: 575.9px) {
+    .heroContent--image {
+        display: none;
+    }
+    .hero_derco {
+        top: 0;
+    }
+    .navbar-collapse ul li {
+        margin-right: 0;
+    }
+    .hero_top-nav .navbar {
+        justify-content: end;
+    }
+    .desc_derco {
+        position: absolute;
+        right: 0;
+        transform: translateY(100%);
+        z-index: -1;
+        top: 0;
+    }
+    .bookatrip .bookatrip_values .values-contents .content {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bookatrip .bookatrip_values .values-contents {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .bookatrip .bookatrip_values {
+        text-align: center;
+    }
+    .bookatrip_image {
+        display: none;
+    }
+    .testimonialsSection_content {
+        text-align: center;
+    }
+    .testimonialsSection_content h1 {
+        margin: auto;
+    }
+    .btn-search {
+        text-align: center;
+    }
+    .subcribeSection_cover {
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+    .values-companydesc {
+        text-align: center;
+    }
+}
+
+
+/* 576-991.9 */
+
+@media (min-width: 576px) and (max-width: 991.9px) {
+    .heroContent--image {
+        display: none;
+    }
+    .hero_derco {
+        top: 0;
+    }
+    .navbar-collapse ul li {
+        margin-right: 0;
+    }
+    .hero_top-nav .navbar {
+        justify-content: end;
+    }
+    .desc_derco {
+        position: absolute;
+        right: 0;
+        transform: translateY(65%);
+        z-index: -1;
+        top: 0;
+    }
+    .bookatrip .bookatrip_values .values-contents .content {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bookatrip .bookatrip_values .values-contents {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .bookatrip .bookatrip_values {
+        text-align: center;
+    }
+    .bookatrip_image {
+        display: none;
+    }
+    .testimonialsSection_content {
+        text-align: center;
+    }
+    .testimonialsSection_content h1 {
+        margin: auto;
+    }
+    .group61 {
+        left: 300px;
+        bottom: 150px;
+    }
+    .btn-search {
+        text-align: center;
+    }
+    .subcribeSection_cover {
+        display: none;
+    }
+}
+
+
+/*991 ->  */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .heroContent--image {
+        display: flex;
+    }
+    .hero_derco {
+        top: -149px;
+    }
+    .navbar-collapse ul li {
+        margin: auto;
+    }
+    .desc_derco {
+        position: absolute;
+        right: 0;
+        transform: translateY(100%);
+        z-index: -1;
+        top: 0;
+    }
+    .bookatrip_image {
+        display: none;
+    }
+    .bookatrip .bookatrip_values .values-contents {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .bookatrip .bookatrip_values .values-contents .content {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bookatrip .bookatrip_values {
+        text-align: center;
+    }
+    .testimonialsSection_content {
+        text-align: center;
+    }
+    .testimonialsSection_content h1 {
+        margin: auto;
+    }
+    .group61 {
+        left: 250px;
+        bottom: 120px;
+    }
+    .subcribeSection_cover {
+        display: none;
+    }
+}
+
+@media (min-width: 1220px) {
+    .desc_derco {
+        display: flex;
+    }
+    .group61 {
+        left: 300px;
+        bottom: 150px;
+    }
+}
