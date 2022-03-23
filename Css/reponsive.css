@@ -78,6 +78,9 @@
     h1 {
         font-size: 50px !important;
     }
+    .hero_heroContent .heroContent--desc .desc_heading {
+        line-height: 65px;
+    }
 }
 
 @media (max-width: 786px) {
@@ -86,7 +89,7 @@
     }
 }
 
-@media (max-width: 437px) {
+@media (max-width: 442px) {
     .values-companydesc {
         text-align: center;
     }
@@ -101,6 +104,10 @@
     }
     .desc_cta {
         justify-content: center;
+    }
+    .desc_derco {
+        right: unset;
+        top: 20px;
     }
 }
 
