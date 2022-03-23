@@ -84,6 +84,9 @@
     .hero_heroContent .heroContent--desc .desc_heading {
         line-height: 65px;
     }
+    .destinations .destinations_bottom .bottom-destination a .destination__card {
+        height: 33%;
+    }
 }
 
 @media (max-width: 786px) {
