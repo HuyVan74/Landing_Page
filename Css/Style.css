@@ -93,9 +93,9 @@ body {
 .desc_cta {
     display: flex;
     font-family: 'Poppins', sans-serif;
-    width: 379px;
+    flex-wrap: wrap;
     bottom: 0;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
