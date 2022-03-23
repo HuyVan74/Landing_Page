@@ -75,8 +75,11 @@
     .desc_derco {
         right: unset;
     }
+    .desc_derco img {
+        width: 100%;
+    }
     h1 {
-        font-size: 50px !important;
+        font-size: 45px !important;
     }
     .hero_heroContent .heroContent--desc .desc_heading {
         line-height: 65px;
@@ -123,6 +126,9 @@
     }
     .hero_derco {
         top: 0;
+    }
+    .desc_derco img {
+        width: 100%;
     }
     .desc_cta {
         justify-content: center;
