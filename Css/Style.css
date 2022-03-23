@@ -578,11 +578,11 @@ body {
 }
 
 .logos {
-    position: absolute;
+    /* position: absolute;
     width: 1210px;
     height: auto;
     left: 125px;
-    top: 3561px;
+    top: 3561px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
