@@ -34,6 +34,7 @@
     }
     .bookatrip .bookatrip_values {
         text-align: center;
+        margin-left: 0!important;
     }
     .bookatrip_image {
         display: none;
@@ -50,6 +51,33 @@
     .subcribeSection_cover {
         display: none;
     }
+    .heroContent--desc {
+        text-align: center;
+    }
+    .desc_cta {
+        justify-content: center;
+    }
+    .destinations {
+        text-align: center;
+    }
+    .hero_heroContent {
+        text-align: center;
+    }
+    .desc_cta a {
+        margin-left: 1.5rem!important;
+    }
+    .testimonialsSection_content {
+        margin-left: 0 !important;
+    }
+    .hero_heroContent .heroContent--desc .desc_heading {
+        font-size: 55px;
+    }
+    .desc_derco {
+        right: unset;
+    }
+    h1 {
+        font-size: 50px !important;
+    }
 }
 
 @media (max-width: 786px) {
@@ -58,15 +86,42 @@
     }
 }
 
+@media (max-width: 437px) {
+    .values-companydesc {
+        text-align: center;
+    }
+    .destinations {
+        text-align: center;
+    }
+    .hero_heroContent {
+        text-align: center;
+    }
+    .heroContent--desc {
+        text-align: center;
+    }
+    .desc_cta {
+        justify-content: center;
+    }
+}
+
 
 /* 576-991.9 */
 
 @media (min-width: 576px) and (max-width: 991.9px) {
+    h1 {
+        font-size: 65px !important;
+    }
     .heroContent--image {
         display: none;
     }
     .hero_derco {
         top: 0;
+    }
+    .desc_cta {
+        justify-content: center;
+    }
+    .heroContent--desc {
+        text-align: center;
     }
     .navbar-collapse ul li {
         margin-right: 0;
@@ -92,6 +147,7 @@
     }
     .bookatrip .bookatrip_values {
         text-align: center;
+        margin-left: 0!important;
     }
     .bookatrip_image {
         display: none;
@@ -111,6 +167,12 @@
     }
     .subcribeSection_cover {
         display: none;
+    }
+    .testimonialsSection_content {
+        margin-left: 0 !important;
+    }
+    .destinations {
+        text-align: center;
     }
 }
 
@@ -148,6 +210,7 @@
     }
     .bookatrip .bookatrip_values {
         text-align: center;
+        margin-left: 0!important;
     }
     .testimonialsSection_content {
         text-align: center;
@@ -164,12 +227,15 @@
     }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1200px) {
     .desc_derco {
         display: flex;
     }
     .group61 {
         left: 300px;
         bottom: 150px;
+    }
+    .testimonialsSection_content {
+        margin-left: 1.5rem!important;
     }
 }

@@ -22,6 +22,7 @@ span {
 
 h1 {
     font-family: 'Volkhov';
+    color: #181E4B;
 }
 
 
@@ -486,6 +487,10 @@ body {
 
 .group62_cover span {
     line-height: 27px;
+}
+
+.testimonialsSection_content {
+    margin-left: 2rem!important;
 }
 
 .testimonialsSection_content span {
